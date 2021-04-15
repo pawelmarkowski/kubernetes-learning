@@ -1,6 +1,6 @@
 # Basics of K8s... Work less, do more
 
-In this documentation we will try to track the K8s learning path based on microK8s service. We assume that the reader has installed some software components and basic knowledge about component mentioned in the [prerequisites](/install/prerequisites.md). Before you start, please verify that list. Good luck!
+In this documentation we will try to track the K8s learning path based on microK8s service. We assume that the reader installed some software components from the [prerequisites](./install/prerequisites.md). Basic knowledge about components find it easier to learn and would be helpful for better understanding. Before you start, please verify that list. Good luck!
 
 # Sources
 

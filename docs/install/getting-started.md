@@ -2,13 +2,13 @@
 
 ## Install prerequisites
 
-Please verify that you have properly installed the [prerequisites](/install/prerequisites/).
+Please verify that you have properly installed the [prerequisites](./prerequisites.md).
 
 ## Install K8s using ansible 
 
 If you want to enable customized list of modules you can do it by defining proper vars kubernetes-learning/ansible/inventories/training/group_vars/all.yml
 
-Install requirements (ansible role (microk8s)[https://github.com/pawelmarkowski/ansible-microk8s]) using ansible-galaxy.
+Install requirements (ansible role [microk8s](https://github.com/pawelmarkowski/ansible-microk8s)) using ansible-galaxy.
 
 ```bash
 ansible-galaxy role install -r ansible/playbooks/roles/requirements.yml --force
