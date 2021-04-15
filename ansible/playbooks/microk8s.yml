@@ -1,0 +1,5 @@
+- hosts: "{{ variable_host | default('all') }}"
+  roles:
+    - role: "microk8s"
+      tags:
+        - "microk8s"

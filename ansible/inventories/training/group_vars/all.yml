@@ -1,0 +1,3 @@
+---
+#microk8s_overwrite:
+#  enable: "dns helm prometheus registry storage"

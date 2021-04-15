@@ -1,0 +1,4 @@
+---
+- name: "microk8s"
+  src: "git@github.com:pawelmarkowski/ansible-microk8s"
+  scm: "git"

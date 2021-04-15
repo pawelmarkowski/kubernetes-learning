@@ -1,0 +1,41 @@
+site_name: Kubernetes learning
+site_description: K8s basics, quick start with microK8s
+
+site_author: "Paweł Markowski"
+# site_url: ''
+
+repo_name: "kubernetes-learning"
+repo_url: "https://github.com/pawelmarkowski/kubernetes-learning"
+edit_uri: "edit/master/docs"
+
+copyright: "MIT License Copyright (c) 2021 Pawel Markowski"
+
+theme:
+  feature:
+    instant: true
+  name: "material"
+  # favicon: "favicon.ico"
+  language: "en"
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+  palette:
+    primary: "teal"
+    accent: "amber"
+
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: "https://www.facebook.com/profile.php?id=100001541098391"
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+nav:
+  - Home: "index.md"
+  - "Getting Started": "install/getting-started.md"
+  - "Monitoring": "monitoring/simple-management.md"
