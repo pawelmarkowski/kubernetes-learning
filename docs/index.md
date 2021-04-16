@@ -6,3 +6,4 @@ In this documentation we will try to track the K8s learning path based on microK
 
 * <https://gist.github.com/pawelmarkowski/a81abb065786e8b87425bb7d87d895b1>
 * <https://www.youtube.com/watch?v=X48VuDVv0do&t=1211s&ab_channel=TechWorldwithNana>
+* <https://kubernetes.io/docs/reference/kubectl/cheatsheet/>

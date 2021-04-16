@@ -48,3 +48,25 @@ if you have multiple contexts in your configuration file, you can switch context
 ```bash
 kubectl config use-context <contextname>
 ```
+
+## Basic commands
+
+`kubectl get nodes`
+
+`kubectl apply -f <file.yml>`
+
+`kubectl edit deployment -n <namespace>`
+
+`kubectl get deployments -n <namespace>`
+
+`kubectl logs <podname>`
+
+Important - LoadBalancers does not work on microK8s
+
+* _deployment_ is blueprint for creating the pods (all informations needed to create the pod). It manages a _replicaset_
+* _replicaset_ automatically created, it manages the replicas of _pods_(we do not have to create or delete it, just use deployments)
+* _pod_ is the smallest unit, abstraction of container 
+
+> We manage deployment only. Everything "below" is managed by K8s.
+
+basics of kubectl you can find here <https://youtu.be/X48VuDVv0do?t=2715>

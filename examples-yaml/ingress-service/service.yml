@@ -5,11 +5,10 @@ metadata:
   namespace: test-ingress-nodeport
 spec:
   ports:
-    - port: 81
+    - port: 80
       protocol: TCP
       targetPort: 80
       name: http
-      nodePort: 30001
   selector:
     app: nginx-server
-  type: NodePort
+  type: ClusterIP

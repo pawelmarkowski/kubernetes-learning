@@ -38,4 +38,4 @@ markdown_extensions:
 nav:
   - Home: "index.md"
   - "Getting Started": "install/getting-started.md"
-  - "Monitoring": "monitoring/simple-management.md"
+  - "Examples": "examples/index.md"

@@ -1,0 +1,5 @@
+---
+postgresqlPostgresPassword: "12345"
+postgresqlPassword: "1234"
+postgresqlDatabase: exampledb
+postgresqlUsername: user
