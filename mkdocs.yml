@@ -38,4 +38,6 @@ markdown_extensions:
 nav:
   - Home: "index.md"
   - "Getting Started": "install/getting-started.md"
-  - "Examples": "examples/index.md"
+  - Examples: "examples/index.md"
+  - "Persistent Volumes (WIP)": "install/persistent-volumes.md"
+  - Monitoring(WIP): "monitoring/simple-management.md"
