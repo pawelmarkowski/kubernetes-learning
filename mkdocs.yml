@@ -6,7 +6,7 @@ site_author: "Paweł Markowski"
 
 repo_name: "kubernetes-learning"
 repo_url: "https://github.com/pawelmarkowski/kubernetes-learning"
-edit_uri: "edit/master/docs"
+edit_uri: "edit/main/docs"
 
 copyright: "MIT License Copyright (c) 2021 Pawel Markowski"
 
