@@ -9,7 +9,7 @@ helm repo add bitnami https://charts.bitnami.com/bitnami
 postgresql repository [docs](https://github.com/bitnami/charts/tree/master/bitnami/postgresql/#installing-the-chart)
 
 ```bash
-helm install psql01 -f kubernetes-learning/examples-yaml/bitnami-helm-postgres/postgresql-helm.yml bitnami/postgresql --create-namespace -n postgresql
+helm install psql01 -f examples-yaml/bitnami-helm-postgres/postgresql-helm.yml bitnami/postgresql --create-namespace -n postgresql
 ```
 
 Output, if command succeed
