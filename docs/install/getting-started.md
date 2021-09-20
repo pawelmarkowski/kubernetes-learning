@@ -6,6 +6,12 @@ Please verify that you have properly installed the [prerequisites](./prerequisit
 
 ## Install K8s using ansible 
 
+Clone repo
+
+```bash
+git clone git@github.com:pawelmarkowski/kubernetes-learning.git
+```
+
 If you want to enable customized list of modules you can do it by defining proper vars ansible/inventories/training/group_vars/all.yml
 
 Install requirements (ansible role [microk8s](https://github.com/pawelmarkowski/ansible-microk8s)) using ansible-galaxy.
