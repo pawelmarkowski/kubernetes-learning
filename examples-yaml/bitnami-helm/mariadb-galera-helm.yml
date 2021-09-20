@@ -1,0 +1,7 @@
+---
+#https://github.com/bitnami/charts/tree/master/bitnami/mariadb-galera
+rootUser:
+  password: "12345"
+galera:
+  bootstrap:
+    forceSafeToBootstrap: true
